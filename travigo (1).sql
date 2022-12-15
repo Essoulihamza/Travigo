@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2022 at 05:32 PM
+-- Generation Time: Dec 15, 2022 at 05:17 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -56,8 +56,12 @@ CREATE TABLE `travel` (
 --
 
 INSERT INTO `travel` (`ID`, `destination`, `image`) VALUES
-(1, 'paris', '/paris.jpg'),
-(2, 'london', '/london.jpg');
+(1, 'dadis', 'img-5.jpg'),
+(4, 'errachidia', 'img-1.jpg'),
+(5, 'safi', 'img-3.jpg'),
+(6, 'casa', 'img-4.jpg'),
+(7, 'ifran', 'img2.png'),
+(8, 'test la la la', 'paris.jpg');
 
 --
 -- Indexes for dumped tables
@@ -77,7 +81,7 @@ ALTER TABLE `travel`
 -- AUTO_INCREMENT for table `travel`
 --
 ALTER TABLE `travel`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
